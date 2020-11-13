@@ -1,0 +1,54 @@
+
+body{
+    display: flex;
+    justify-content: center;
+}
+#wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#wrapper .top{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#wrapper .mid{
+    width: 825px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form{
+    width: 180px;
+    height: 200px;
+}
+
+form input{
+    width: 80px;
+    height: 15px;
+    align-content: center;
+    display:inline-block;
+    align-self: center;
+}
+.sp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+}
+
+h2{
+width: 800px;
+border-bottom: 2px black solid;
+}
+#wrapper .bot{
+width: 900px;
+height: 500px;
+display: flex;
+justify-content: center;
+} 
